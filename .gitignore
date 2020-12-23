@@ -102,6 +102,7 @@ ENV/
 .mypy_cache/
 
 .DS_Store
+.vscode
 *.sqlite3
 media/
 *.pyc
