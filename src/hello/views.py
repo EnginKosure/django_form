@@ -5,7 +5,7 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return render(request, 'hello/index.html')
+    return render(request, 'hello/dj4e.htm')
 
 
 def index1(request):
