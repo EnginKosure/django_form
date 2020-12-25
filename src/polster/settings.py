@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'hello',
+    'polls.apps.PollsConfig',
 ]
 # 'hello' yerine
 # 'hello.apps.HelloConfig' de yazilabilir
