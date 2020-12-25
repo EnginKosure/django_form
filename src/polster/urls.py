@@ -20,6 +20,8 @@ from hello.views import index
 from hello.views import index1
 
 urlpatterns = [
+    path('', include('pages.urls')),
+    path('polls/', include('polls.urls')),
     path('admin/', admin.site.urls),
     path('hello/', index),
     path('dj4e/solutions/guess/guess.php', index1),
